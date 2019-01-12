@@ -36,3 +36,18 @@ for i in range(10):
     print(i)
 print("EOP")
 
+#반복의 제어 else
+print("else 제어")
+
+for i in range(10):
+    print(i),
+else:
+    print("EOP")
+
+print("##")
+i = 0 
+while i < 10:
+    print(i),
+    i += 1
+else:
+    print("eop")    
