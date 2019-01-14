@@ -2,8 +2,10 @@
 
 import random
 guess_number = random.randint(1, 100)
+print(guess_number)
+
 print("숫자를 맞춰보세요.")
-user_input = int(intput())
+user_input = int(input("숫자를 입력하세요."))
 while (user_input is not guess_number):
     if user_input > guess_number:
         print("숫자가 너무 큽니다.")
