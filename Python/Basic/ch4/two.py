@@ -7,6 +7,7 @@ student_scroe = [0,0,0,0,0]
 i =0
 for subjust in midterm_score:
     for score in subjust:
+        print(score)
         student_scroe[i] += score
         i += 1
     print(student_scroe)
