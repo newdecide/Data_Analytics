@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import itertools
 
 def sum_of_list(list_data):
     # '''
@@ -212,10 +212,9 @@ def find_smallest_value(list_data):
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
 
-    result = None
-
-    # ==================================
+    result = min(list_data)
     return result
+    # ==================================
 
 
 def binary_converter(decimal_number):
@@ -235,8 +234,8 @@ def binary_converter(decimal_number):
     # ===Modify codes below=============
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
-
-    result = None
+    
+    result = bin(decimal_number)
 
     # ==================================
     return result.strip()
@@ -267,8 +266,12 @@ def number_of_cases(list_data):
     # ===Modify codes below=============
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
-
-    result = None
+    a = []
+    list2=[list_data]
+    result = []
+    for shape,color in itertools.product(list1,list2):
+        sums = shape+color
+        result.append(sums)
 
     # ==================================
     return result
@@ -279,8 +282,6 @@ def main():
     # 아래 "pass" 부분을 삭제한 후 테스트하고
     # 싶은 코드를 자유롭게 작성하시오
     pass
-
-    sum_of_list([1,2,3])
 
     # ==================================
 
