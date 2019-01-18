@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import itertools
 
 def sum_of_list(list_data):
     # '''
@@ -20,9 +20,12 @@ def sum_of_list(list_data):
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
 
-    result = None
+    result = 0
 
-    # ==================================
+    for i  in  list_data: 
+        result += i
+
+     # ==================================
     return result
 
 
@@ -50,8 +53,9 @@ def merge_and_sort(list_data_a, list_data_b):
     # ===Modify codes below=============
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
-
-    result = None
+    
+    merge = list_data_a + list_data_b
+    result = three.sort()
 
     # ==================================
     return result
@@ -82,7 +86,13 @@ def delete_a_list_element(list_data, element_value):
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
 
-    result = None
+    try: 
+        del list_data[element_value]
+    except IndexError:
+        return 0
+    
+    result = list_data
+      
 
     # ==================================
     return result
@@ -110,10 +120,16 @@ def comparison_list_size(list_data_a, list_data_b):
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
 
-    result = None
+    
+    if len(list_data_a) >= len(list_data_b):
+        result = list_data_a
+        return result
+    else: 
+        result = list_data_b
+        return result
+
 
     # ==================================
-    return result
 
 
 def odd_even_check(a, b):
@@ -136,11 +152,17 @@ def odd_even_check(a, b):
     # ===Modify codes below=============
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
-
-    result = None
+  
+    c = a+b
+    if(c%2==1):
+        result = "Odd"
+        return result    
+    else:
+        result = "Even"
+        return result
 
     # ==================================
-    return result
+  
 
 
 def discount_price(price):
@@ -161,11 +183,13 @@ def discount_price(price):
     # ===Modify codes below=============
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
-
-    result = None
-
-    # ==================================
-    return result
+    
+    if price > 100000:
+        result = price - (price / 5)
+        return result
+    else: 
+        result = price - (price / 10)
+        return result
 
 
 def find_smallest_value(list_data):
@@ -188,10 +212,9 @@ def find_smallest_value(list_data):
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
 
-    result = None
-
-    # ==================================
+    result = min(list_data)
     return result
+    # ==================================
 
 
 def binary_converter(decimal_number):
@@ -211,8 +234,8 @@ def binary_converter(decimal_number):
     # ===Modify codes below=============
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
-
-    result = None
+    
+    result = bin(decimal_number)
 
     # ==================================
     return result.strip()
@@ -243,11 +266,36 @@ def number_of_cases(list_data):
     # ===Modify codes below=============
     # 한 줄 이상의 코드로 작성 가능하나,
     # 반드시 결과 값을 result 변수에 할당하여 반환
+    result =[]
+    element1=None
 
-    result = None
+    element2=None
 
-    # ==================================
+    sumelement=""
+
+    for i in range(len(list_data)):
+
+        element1=list_data[i]
+
+        for j in range(len(list_data)):
+
+            element2=list_data[j]
+
+            sumelement=str(element1)+str(element2)
+
+            result+=[sumelement]
+
+    result.sort()
+
+    for i in result:
+
+        if result.count(i)>1:
+
+            result.remove(i)
+
     return result
+    # ==================================
+
 
 
 def main():
