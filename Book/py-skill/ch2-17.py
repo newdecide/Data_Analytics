@@ -1,4 +1,6 @@
 #17.
 
 import sys
-o
+import matplotlib
+import pandas
+import numpy
