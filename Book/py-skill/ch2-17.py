@@ -2,5 +2,7 @@
 
 import sys
 import matplotlib
-import pandas
-import numpy
+import pandas as pd
+import numpy 
+
+pd = 
