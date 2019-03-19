@@ -7,3 +7,6 @@ import numpy
 
 pd = 0
 print(pd)
+
+np = 1
+
