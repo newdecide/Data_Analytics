@@ -9,4 +9,4 @@ pd = 0
 print(pd)
 
 np = 1
-
+np = 0
