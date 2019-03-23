@@ -13,3 +13,4 @@ address = 'Four score and seven years ago...'
 result = index_words(address)
 print(result[:3])
 print("s")
+print("ss")
