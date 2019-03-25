@@ -11,3 +11,4 @@ print(pd)
 np = 1
 np = 0
 print(np)
+print(s)
