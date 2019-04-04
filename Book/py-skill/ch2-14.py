@@ -12,16 +12,16 @@
 # if result is None:
 #     print('ch1 :','Invalid inputs')
 
-#2. 0이 되어버림
+2. 0이 되어버림
 
-# x,y = 0, 5
-# result = divide(x,y)
-# if not result:
-#     print('ch2: ','Invalid inputs')
+x,y = 0, 5
+result = divide(x,y)
+if not result:
+    print('ch2: ','Invalid inputs')
 
-# _, result = divide(x,y)
-# if not result:
-#     print('Invalid inputs')
+_, result = divide(x,y)
+if not result:
+    print('Invalid inputs')
 
 def divide(a,b):
     try: 
