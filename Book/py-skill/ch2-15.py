@@ -14,7 +14,6 @@ group = {2,3,5,7}
 sort_priority(numbers, group)
 print(numbers)
 
-
 #2 클로저 사용(스코프 버그 현상)
 def sort_priority2(numbers, group):
     found = False
@@ -43,16 +42,16 @@ def sort_priority3(numbers, group):
     numbers.sort(key=helper)
     return found
 
-# 헬버 클래스
-class Sorter(object):
-    def __init__(self, group):
-        self.group = group
-        self.found = False
+# # 헬버 클래스
+# class Sorter(object):
+#     def __init__(self, group):
+#         self.group = group
+#         self.found = False
     
-    def __call__(self, x):
+#     def __call__(self, x):
     
-        self.found = True
-        return (0,x)
+#         self.found = True
+#         return (0,x)
     
 
 
