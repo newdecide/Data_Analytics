@@ -13,7 +13,6 @@ if result is None:
     print('ch1 :','Invalid inputs')
 
 2. 0이 되어버림
-
 x,y = 0, 5
 result = divide(x,y)
 if not result:
@@ -36,3 +35,5 @@ except ValueError:
     print('Invalid inputs')
 else:
     print('Result is %.1f' % result)
+
+#예제 내용 추가 해야함.
