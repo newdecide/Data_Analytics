@@ -35,5 +35,3 @@ except ValueError:
     print('Invalid inputs')
 else:
     print('Result is %.1f' % result)
-
-#예제 내용 추가 해야함.

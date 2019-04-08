@@ -42,16 +42,5 @@ def sort_priority3(numbers, group):
     numbers.sort(key=helper)
     return found
 
-# # 헬버 클래스
-# class Sorter(object):
-#     def __init__(self, group):
-#         self.group = group
-#         self.found = False
-    
-#     def __call__(self, x):
-    
-#         self.found = True
-#         return (0,x)
-    
 
 

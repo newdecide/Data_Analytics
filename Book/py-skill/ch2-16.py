@@ -1,5 +1,4 @@
 #16. 리스트를 반환하는 대신 제너레이터를 고려하자
-
 def index_words(text):
     result = []
     if text:
