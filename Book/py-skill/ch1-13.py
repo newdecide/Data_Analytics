@@ -37,5 +37,4 @@ def divide_json(path):
         return Value 
     finally:
         handle.close()
-
-    
+    print("1")
