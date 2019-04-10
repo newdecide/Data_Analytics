@@ -42,5 +42,5 @@ def sort_priority3(numbers, group):
     numbers.sort(key=helper)
     return found
 
-
+#4 데이터 수집 
 
