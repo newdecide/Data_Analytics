@@ -44,3 +44,4 @@ def sort_priority3(numbers, group):
 
 #4 데이터 수집 
 
+#5 데이터 정리
