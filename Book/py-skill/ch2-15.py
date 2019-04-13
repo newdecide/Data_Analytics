@@ -47,3 +47,4 @@ def sort_priority3(numbers, group):
 #5 데이터 정리
 
 #6 디자인 패턴 내용 확인
+#7 정리할 내용들 보고하기
