@@ -38,3 +38,5 @@ def divide_json(path):
     finally:
         handle.close()
     print("1")
+
+    #심각!
