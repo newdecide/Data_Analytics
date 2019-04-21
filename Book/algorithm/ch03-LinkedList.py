@@ -61,7 +61,8 @@ if __name__ == '__main__':
     insert_node("C")
     print_list()
 
-#삽입정렬 
+#삽입정렬 에러 찾기
+
 
 
 
