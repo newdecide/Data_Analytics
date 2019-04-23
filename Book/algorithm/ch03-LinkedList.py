@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Linked list 
 # 20190417 14:20 ~ 14:40
+# 삽입, 삭제정렬 포함
 
 class Node:
     def __init__(self, data, next=None):
@@ -60,6 +61,4 @@ if __name__ == '__main__':
     print("C 추가")
     insert_node("C")
     print_list()
-
-#삽입정렬 에러 찾기
 
