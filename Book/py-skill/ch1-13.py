@@ -16,7 +16,7 @@ def load_json_key(data, key):
     else:
         return result_dict[key]
 
-#3) 모두 사용
+#3) 모두 사용(정)
 UNDEFINED = object()
 
 def divide_json(path):
