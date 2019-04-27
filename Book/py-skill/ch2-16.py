@@ -11,4 +11,3 @@ def index_words(text):
 address = 'Four score and seven years ago...'
 result = index_words(address)
 
-# w 정리 필요.
