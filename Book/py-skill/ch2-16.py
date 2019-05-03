@@ -11,5 +11,6 @@ def index_words(text):
 address = 'Four score and seven years ago...'
 result = index_words(address)
 
-# 17. 이중연결리스
+# 17. 이중연결리스트
+
 
