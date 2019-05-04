@@ -13,4 +13,7 @@ result = index_words(address)
 
 # 17. 이중연결리스트
 
+# 18. 스택 
+
+# 19. 큐
 
