@@ -30,7 +30,6 @@ print('Found:', found)
 print(numbers)
 
 #3 데이터 얻어오기
-
 def sort_priority3(numbers, group):
     found = False
     def helper(x):
@@ -45,7 +44,7 @@ def sort_priority3(numbers, group):
 #4 데이터 수집 
 
 #5 데이터 정리
-
 #6 디자인 패턴 내용 확인
 #7 정리할 내용들 보고하기
 #8 진척 내용 정리
+#9
