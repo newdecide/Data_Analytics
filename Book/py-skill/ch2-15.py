@@ -51,3 +51,4 @@ def sort_priority3(numbers, group):
 #10 일정 내용 확인
 
 #11
+#12
