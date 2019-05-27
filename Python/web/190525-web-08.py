@@ -19,9 +19,10 @@ e = lambda *a : sum(a)
 print(e(1,2,3,4,5))
 
 # map
-
 a = list(range(1, 11))
 result = []
 
 for el in a:
     result.append(el+1)
+
+# 다음 내용 정리
