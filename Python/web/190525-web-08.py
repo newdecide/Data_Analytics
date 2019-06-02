@@ -26,3 +26,4 @@ for el in a:
     result.append(el+1)
 
 # 다음 내용 정리
+1
