@@ -68,3 +68,4 @@ a2 = [ i for i in range(1, 10+1) if i % 2 ==0]
 
 print(a2)
 # 리스 정보
+# ..
