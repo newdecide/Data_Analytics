@@ -53,7 +53,7 @@ for el in in_fo:
     print(in_fo[el])
 
 
-#
+#리스트 값 정리
 my_info = [
     ('nickname', 'cocolman'), ('country', 'korea'), ('name', 'sol')
 ]
