@@ -49,6 +49,3 @@ def sort_priority3(numbers, group):
 #8 진척 내용 정리
 #9 큐 내용 확인
 #10 일정 내용 확인
-
-#11
-#12
