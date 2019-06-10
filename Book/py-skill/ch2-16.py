@@ -22,11 +22,3 @@ result = index_words(address)
 # 영화관 예약을 하는 것.(FiFO)
 # 코드정리
 
-# 20. 
-
-# 21. 
-
-# 22.
-
-# 23.
-
