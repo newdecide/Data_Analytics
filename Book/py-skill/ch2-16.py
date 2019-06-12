@@ -11,14 +11,4 @@ def index_words(text):
 address = 'Four score and seven years ago...'
 result = index_words(address)
 
-# 17. 이중연결리스트
-
-# 18. 스택 
-# 그릇을 올려 놓은 것으로 보면 됨. (LiFo)
-
-
-
-# 19. 큐
-# 영화관 예약을 하는 것.(FiFO)
-# 코드정리
 
